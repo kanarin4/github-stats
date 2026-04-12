@@ -1,6 +1,6 @@
 # GitHub Trophies
 
-![GitHub Stats](https://raw.githubusercontent.com/Rhizobium-gits/github-stats/main/svg/stats-everforest-light.svg)
+![Demo](./svg/stats-noir.svg)
 
 ### [日本語](#日本語) | [English](#english) | [中文](#中文)
 
