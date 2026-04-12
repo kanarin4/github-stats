@@ -2,8 +2,8 @@ name: Generate Stats Card
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # 6時間ごとに更新
-  workflow_dispatch: # 手動実行も可能
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
   push:
     paths:
       - "config.json"
@@ -17,8 +17,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-
-      - run: npm ci
 
       - name: Generate SVG
         env:
